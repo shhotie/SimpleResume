@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swati Wanjari - Resume</title>
+    <style>
+        /* General Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: white;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #108484;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            color: #108484;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Section Headings */
+        section h2 {
+            font-size: 1.7rem;
+            margin-bottom: 10px;
+            color: #108484;
+            border-bottom: 1px solid #108484;
+            padding-bottom: 5px;
+        }
+
+        .job {
+            margin-bottom: 25px;
+        }
+
+        .job h3 {
+            font-size: 1.4rem;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .job .date {
+            font-style: italic;
+            color: #888;
+        }
+
+        .job ul {
+            font-size: 1rem;
+            color: #555;
+            margin: 10px 0;
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        /* Footer Styling */
+        footer {
+            margin-top: 20px;
+            font-size: 1rem;
+            text-align: center;
+            color: #555;
+        }
+
+        footer a {
+            color: #108484;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Utility Classes */
+        .bold {
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.4rem;
+            }
+
+            section h2 {
+                font-size: 1rem;
+            }
+
+            .job h3 {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Swati Wanjari</h1>
+            <b>Software Developer</b>
+            <p><a href="mailto:swatiwanjari2@gmail.com">swatiwanjari2@gmail.com</a> | +91 7057940680 | Pune,
+                Maharashtra, India</p>
+        </header>
+
+        <section>
+            <h2>Profile Summary</h2>
+            <p>Java Developer with 1.5 years of experience in Spring Boot, microservices, PostgreSQL, and CI/CD tools,
+                seeking to contribute to dynamic development projects.</p>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+
+            <div class="job">
+                <h3><a href="https://smarbl.com/" target="_blank">Smarbl, Pune</a> <span class="date">(Associate Java
+                Developer, Sept 2023 – Present)</span></h3>
+                <b>Project: SmartReg</b>
+                <p>A cloud-based regulatory compliance management tool for financial institutions,
+                featuring rules, validations, workflows, data extraction, and monitoring.</p>
+                <ul>
+                    <li>Developed Java applications using Java8, Collection framework, and J2EE.</li>
+                    <li>Created and maintained REST APIs.</li>
+                    <li>Utilized Jenkins for CI/CD, ensuring seamless code integration and delivery.</li>
+                    <li>Collaborated using Git for version control, maintaining code quality.</li>
+                    <li>Deployed applications with Docker and Docker Compose.</li>
+                    <li>Worked in Agile and Scrum methodologies.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3><a href="https://www.proazuresoft.com/" target="_blank">ProAzure Software Solutions Pvt. Ltd., Pune</a> <span
+        class="date">(Intern, Feb 2023 - Sept 2023)</span></h3>
+                </h3>
+                <b>Project: E-labs Recruitment</b>
+                <p>A virtual interview management system with candidate/interviewer registration,
+                data processing, interview recording, skill-based evaluation, and automated
+                reminders.</p>
+                <ul>
+                    <li>Developed web applications with Java and Spring Boot.</li>
+                    <li>Enhanced interviewer profile creation and data processing modules.</li>
+                    <li>Used Git for version control and conducted unit testing, bug fixes, and feature enhancements.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Shri Krishnaraoji Pandav Polytechnic, Nagpur <span class="date">(Lecturer, Jan 2021 - July
+                        2022)</span></h3>
+                <ul>
+                    <li>Faculty of Electrical Engineering.</li>
+                    <li>Taught subjects related to Electrical Machines and Switchgear.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3><a href="https://www.mobiiot.in/" target="_blank">Mobicore Infotech, Nagpur</a> <span
+        class="date">(Trainee Engineer, Dec 2018 - Jan 2020)</span></h3>
+                <ul>
+                    <li>Developed IoT prototypes and embedded systems using Arduino IDE and C.</li>
+                    <li>Created custom hardware/software solutions with OLED displays, sensors, and actuators.</li>
+                    <li>Designed schematics and PCBs in Altium Software.</li>
+                    <li>Placed components on manufactured PCBs.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Core Java, Spring Boot, Hibernate, JPA, Microservices, Maven, Spring REST, JSON</li>
+                <li>MySQL, PostgreSQL</li>
+                <li>Git, GitHub, Agile, Docker</li>
+                <li>React (Basic), HTML, CSS, Linux (Basic)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tools Used</h2>
+            <ul>
+                <li>IntelliJ IDE</li>
+                <li>DBeaver</li>
+                <li>Postman</li>
+                <li>Visual Studio Code</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Project</h2>
+            <p><strong><a href="https://github.com/shhotie/ConnectWindow" target="_blank">Connect Window</a></strong></p>
+            <p>Connect Window is a web app for students to
+                connect with peers and alumni. Users can upload
+                posts, update profiles, and join chat groups to
+                resolve queries.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p><strong>Centre for Development of Advanced Computing (CDAC), Pune</strong><br>Post Graduation Diploma |
+                2022 – 2023</p>
+            <p><strong>Tulsiramji Gaikwad Patil College of Engineering and Technology, Nagpur</strong><br>Degree in
+                Electrical Engineering | 2015 – 2018</p>
+        </section>
+
+        <footer>
+            <p>Find me on LinkedIn: <a href="https://www.linkedin.com/in/swati-wanjari/" target="_blank">Swati
+                    Wanjari</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
